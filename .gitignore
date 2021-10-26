@@ -1,0 +1,4 @@
+main.db
+app.sqlite
+test.db
+__pycache__
