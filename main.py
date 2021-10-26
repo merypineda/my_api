@@ -18,7 +18,6 @@ class Post(db.Model):
     def __repr__(self):
         return '<Post %s>' % self.title
 
-
 class BlogPostSchema(ma.Schema):
     class Meta:
         fields = ("id", "title", "content")
